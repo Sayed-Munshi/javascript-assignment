@@ -1,0 +1,22 @@
+// Feet to Mail
+
+
+
+function feetToMile(feet){
+    var mile = feet / 5280;
+    return mile;
+}
+var result = feetToMile(16840);
+console.log("you have", result, "mile")
+
+
+2>
+function woodCalculator(chair, tabil, bad){
+        var chaircount = chair * 1;
+        var tabilcount = tabil * 3;
+        var badcount = bad *5;
+        var totalcout = chaircount + tabilcount + badcount;
+        return totalcout;
+}
+var result=woodCalculator(5, 2, 3);
+console.log(result);
